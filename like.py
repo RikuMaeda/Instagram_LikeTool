@@ -14,9 +14,9 @@ def login():
     # メアドとパスワードを入力
     driver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
     time.sleep(2)
-    driver.find_element(By.NAME,"username").send_keys("riku0810ma@yahoo.ne.jp")
+    driver.find_element(By.NAME,"username").send_keys("MAIL_ADRESS")
     time.sleep(1)
-    driver.find_element(By.NAME,"password").send_keys("ma3874266")
+    driver.find_element(By.NAME,"password").send_keys("PASSWORD")
     time.sleep(2)
 
     # ログインボタンを押す
